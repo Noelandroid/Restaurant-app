@@ -91,6 +91,9 @@ class _FoodlistpageState extends State<Foodlistpage> {
                     const SizedBox(
                       height: 10,
                     ),
+                    const SizedBox(
+                      height: 10,
+                    ),
                     SizedBox(
                         width: MediaQuery.of(context).size.width * 0.42,
                         child: Text(
