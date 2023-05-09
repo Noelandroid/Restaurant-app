@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:testpro/detailpage.dart';
 
 class Foodlistpage extends StatefulWidget {
-  List<String> dishname;
+  final List<String> dishname;
 
-  List<dynamic> dishimage;
-  List<String> dishprice;
+  final List<dynamic> dishimage;
+  final List<String> dishprice;
 
-  List<String> dishdisc;
-  List<String> dishavaila;
-  List<String> dishcalorie;
+  final List<String> dishdisc;
+  final List<String> dishavaila;
+  final List<String> dishcalorie;
   // CategoryDish dishname;
-  Foodlistpage(
+  const Foodlistpage(
       {super.key,
       required this.dishname,
       required this.dishimage,
